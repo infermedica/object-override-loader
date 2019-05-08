@@ -1,0 +1,27 @@
+{
+  "name": "@infermedica/object-override-loader",
+  "description": "Object YAML/JSON override loader",
+  "version": "0.1.0",
+  "author": "Infermedica",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/infermedica/object-override-loader"
+  },
+  "files": [
+    "*.js",
+    "README.md"
+  ],
+  "keywords": [
+    "i18n",
+    "loader",
+    "vue",
+    "webpack"
+  ],
+  "dependencies": {
+    "js-yaml": "^3.12.2",
+    "loader-utils": "^1.2.3",
+    "path": "^0.12.7"
+  }
+}
